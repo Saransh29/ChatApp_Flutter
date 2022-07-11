@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         theme: AppTheme.light(),
         darkTheme: AppTheme.dark(),
         themeMode: ThemeMode.dark,
+        // themeMode: ThemeMode.light,
         title: 'Chatter',
         home: HomeScreen(),
         debugShowCheckedModeBanner: false);
